@@ -70,6 +70,11 @@ CLOSE_OPTIONS = '''    { "caption": "-", "id": "1_row" },
             { "command": "close_others_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Other Tabs" },
             { "command": "close_to_right_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Tabs to the Right" },
             { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "left" }, "caption": "Close Tabs to the Left" },
+            { "caption": "-" },
+            { "command": "close_unmodified", "args": { "group": -1, "index": -1 }, "caption": "Close Unmodified" },
+            { "command": "close_unmodified_to_right_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Unmodified Below" },
+            { "command": "close_deleted_files", "args": { "group": -1 }, "caption": "Close Deleted Files" },
+
             {
                 "caption": "Close Tabs(s) - Skip Unsaved",
                 "children":

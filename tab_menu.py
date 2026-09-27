@@ -68,6 +68,8 @@ CLOSE_OPTIONS = '''    { "caption": "-", "id": "1_row" },
         [
             { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "all" }, "caption": "Close All Tabs" },
             { "command": "close_others_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Other Tabs" },
+            { "command": "close_selected", "args": { "group": -1, "index": -1 }, "caption": "Close Selected Tabs" },
+            { "command": "close_unselected", "args": { "group": -1, "index": -1 }, "caption": "Close Unselected Tabs" },
             { "command": "close_to_right_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Tabs to the Right" },
             { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "left" }, "caption": "Close Tabs to the Left" },
             { "caption": "-" },
